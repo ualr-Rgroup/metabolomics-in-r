@@ -70,6 +70,9 @@ head(tic.data)
 
 # Make TIC plot using ggplot2 package
 
+# install ggplot2 (can skip if already installed)
+install.packages("ggplot2")
+
 library(ggplot2)
 
 # make customized theme
