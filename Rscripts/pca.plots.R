@@ -176,17 +176,13 @@ g2 <-
   geom_point(size=2.5, pch=21, color="gray20", bg="khaki1") +
   stat_ellipse(level=0.15, colour="gray40", linetype="dashed", type="euclid") +
   geom_point(data=subset(loadings, pc1.change=="UP"),
-             aes(bg="PC1 neg.cor"), size=4, 
-             pch=21, color="black", bg="blue") +
+             size=4, pch=21, color="black", bg="blue") +
   geom_point(data=subset(loadings, pc1.change=="DOWN"),
-             aes(bg="PC1 neg.cor"), size=4, 
-             pch=22, color="black", bg="orange") +
+             size=4, pch=22, color="black", bg="orange") +
   geom_point(data=subset(loadings, pc2.change=="UP"),
-             aes(bg="PC2 pos.cor"), size=4, 
-             pch=23, color="black", bg="green") +
+             size=4, pch=23, color="black", bg="green") +
   geom_point(data=subset(loadings, pc2.change=="DOWN"),
-             aes(bg="PC2 neg.cor"), size=4, 
-             pch=24, color="black", bg="red") +
+             size=4, pch=24, color="black", bg="red") +
   scale_x_continuous(limits = c(-0.18, 0.16)) +
   scale_y_continuous(limits = c(-0.16, 0.16)) +
   ggtitle("PCA Loadings Plot") +
