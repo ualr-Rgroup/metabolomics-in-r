@@ -3,3 +3,4 @@ R scripts used in this chapter
 1. TIC.generator.R
 2. xcms.process.R
 3. pca.process.R
+4. pca.plots.R
