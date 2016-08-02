@@ -1,6 +1,8 @@
-R scripts used in this chapter
+R scripts used in this chapter in the order that they appear.
 
 1. TIC.generator.R
 2. xcms.process.R
 3. pca.process.R
 4. pca.plots.R
+5. heatmap.generator.R
+6. boxplot.generator.R
