@@ -7,3 +7,4 @@ R scripts used in this chapter in the order that they appear.
 5. heatmap.generator.R
 6. boxplot.generator.R
 7. EIC.generator.R
+8. volcanoplot.generator.R
