@@ -1,7 +1,10 @@
 #############################################################
-#### Obtain summary statistics for XCMS data 
+# Obtain summary statistics for XCMS data 
 #############################################################
 
+# This script will determine the mean, median, standard deviation, 
+# standard error, and coefficient of variation for each variable 
+# and return the results into a data frame
 
 # Summary statistics function
 sumstats <- function(z) {
@@ -14,6 +17,13 @@ sumstats <- function(z) {
   	return(result)
 }
 
+# Import data
 data <- read.csv("xcmsresults.csv", header=T, row.names=1)
+
+# Apply summary statistics function
 newdf <- sumstats(data)
+
+# Save results to file
 write.csv(newdf, "summary_statistics.csv")
+
+# end
