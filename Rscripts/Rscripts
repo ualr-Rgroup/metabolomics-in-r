@@ -1,0 +1,11 @@
+R scripts used in this chapter in the order that they appear.
+
+1. TIC.generator.R
+2. xcms.process.R
+3. summary.stats.R
+4. pca.process.R
+5. pca.plots.R
+6. heatmap.generator.R
+7. boxplot.generator.R
+8. EIC.generator.R
+9. volcanoplot.generator.R
